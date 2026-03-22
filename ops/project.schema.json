@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DomainProjectConfig",
+  "type": "object",
+  "required": [
+    "project_id",
+    "primary_domain",
+    "repo_name",
+    "project_root_folder",
+    "locales",
+    "locale_hosts",
+    "subdomain_links",
+    "deploy_targets",
+    "hosting_adapter",
+    "build_output_dir",
+    "branch_strategy"
+  ],
+  "properties": {
+    "project_id": { "type": "string" },
+    "primary_domain": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "locales": { "type": "array", "items": { "type": "string" } },
+    "locale_hosts": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "subdomain_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "host", "locale"],
+        "properties": {
+          "kind": { "type": "string" },
+          "host": { "type": "string" },
+          "locale": { "type": "string" }
+        }
+      }
+    },
+    "repo_name": { "type": "string" },
+    "project_root_folder": { "type": "string" },
+    "deploy_targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "host"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "type": "string" },
+          "host": { "type": "string" },
+          "path": { "type": "string" }
+        }
+      }
+    },
+    "hosting_adapter": { "type": "string" },
+    "canonical_rules": { "type": "array", "items": { "type": "string" } },
+    "build_output_dir": { "type": "string" },
+    "environment_names": { "type": "array", "items": { "type": "string" } },
+    "branch_strategy": {
+      "type": "object",
+      "required": ["main", "feature_prefix"],
+      "properties": {
+        "main": { "type": "string" },
+        "feature_prefix": { "type": "string" }
+      }
+    }
+  }
+}
