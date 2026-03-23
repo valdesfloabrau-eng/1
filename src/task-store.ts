@@ -15,6 +15,9 @@ export class InMemoryTaskStore implements TaskStore {
   private readonly tasks = new Map<string, StoredTask>();
 
   createTask(task: TaskSpec, initialState: TaskState): void {
+    if (this.tasks.has(task.task_id)) {
+      throw new Error(`Duplicate task: ${task.task_id}`);
+    }
     this.tasks.set(task.task_id, { spec: task, state: initialState });
   }
 
