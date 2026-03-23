@@ -21,15 +21,27 @@ export class Broker {
 
     this.tasks.createTask(task, 'task.created');
     this.transition(task.task_id, 'task.asking');
-    const memo = await this.codex.askFirst(task);
-    await this.github.createTaskArtifact(`runs/${task.task_id}/ask-memo.json`, JSON.stringify(memo, null, 2));
-    this.transition(task.task_id, 'task.options_ready');
+
+    try {
+      const memo = await this.codex.askFirst(task);
+      await this.github.createTaskArtifact(`runs/${task.task_id}/ask-memo.json`, JSON.stringify(memo, null, 2));
+      this.transition(task.task_id, 'task.options_ready');
+    } catch (error) {
+      this.fail(task.task_id);
+      throw error;
+    }
   }
 
   async deployProject(taskId: string, projectId: string): Promise<void> {
     this.transition(taskId, 'task.deploying');
-    const result = await this.deploy.deploy(projectId);
-    this.tasks.setState(taskId, result.status === 'deployed' ? 'task.deployed' : 'task.failed');
+
+    try {
+      const result = await this.deploy.deploy(projectId);
+      this.transition(taskId, result.status === 'deployed' ? 'task.deployed' : 'task.failed');
+    } catch (error) {
+      this.fail(taskId);
+      throw error;
+    }
   }
 
   private transition(taskId: string, next: TaskState): void {
@@ -42,5 +54,16 @@ export class Broker {
       throw new Error(`Invalid transition: ${current} -> ${next}`);
     }
     this.tasks.setState(taskId, next);
+  }
+
+  private fail(taskId: string): void {
+    const stored = this.tasks.getTask(taskId);
+    const current = stored?.state;
+    if (!current || current === 'task.failed') {
+      return;
+    }
+    if (canTransition(current, 'task.failed')) {
+      this.tasks.setState(taskId, 'task.failed');
+    }
   }
 }
