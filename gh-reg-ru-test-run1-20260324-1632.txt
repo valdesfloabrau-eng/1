@@ -1,0 +1,5 @@
+GHREGRU_TEST_20260324_RUN1_1632Z_A1B2C3D4
+repo=valdesfloabrau-eng/1
+branch=main
+path=gh-reg-ru-test-run1-20260324-1632.txt
+created_via=github_connector_only
