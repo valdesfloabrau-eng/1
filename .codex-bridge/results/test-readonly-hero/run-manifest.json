@@ -1,0 +1,19 @@
+﻿{
+    "task_id":  "test-readonly-hero",
+    "project_path":  "C:\\Users\\User\\OneDrive\\Документы\\New project\\drmelhem.ru",
+    "started_at":  "2026-03-26T21:41:22.0549361+03:00",
+    "finished_at":  "2026-03-26T21:42:32.9165907+03:00",
+    "result_status":  "succeeded",
+    "sandbox_mode":  "workspace-write",
+    "approval_source":  "config",
+    "worker_id":  "DESKTOP-RUN7H1O",
+    "branch":  "chatgpt-codex-bridge",
+    "repo_full_name":  "valdesfloabrau-eng/1",
+    "artifacts":  {
+                      "run_manifest":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\test-readonly-hero\\run-manifest.json",
+                      "codex_final":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\test-readonly-hero\\codex-final.md",
+                      "events":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\test-readonly-hero\\events.jsonl",
+                      "handoff":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\test-readonly-hero\\handoff-to-chatgpt.md",
+                      "patch_summary":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\test-readonly-hero\\patch-summary.json"
+                  }
+}
