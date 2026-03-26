@@ -1,9 +1,9 @@
 {
-    "updated_at":  "2026-03-26T21:38:53.8890500+03:00",
+    "updated_at":  "2026-03-26T21:41:10.6935626+03:00",
     "branch":  "chatgpt-codex-bridge",
     "repo_full_name":  "valdesfloabrau-eng/1",
     "worker_id":  "DESKTOP-RUN7H1O",
-    "status":  "idle",
+    "status":  "running",
     "mode":  "idle-poller-v1",
-    "current_task_id":  null
+    "current_task_id":  "test-readonly-hero"
 }
