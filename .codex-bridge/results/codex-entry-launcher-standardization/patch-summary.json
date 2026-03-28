@@ -1,0 +1,12 @@
+﻿{
+    "files_changed":  [
+
+                      ],
+    "tests_run":  [
+
+                  ],
+    "tests_passed":  true,
+    "notes":  [
+                  "fatal: not a git repository (or any of the parent directories): .git"
+              ]
+}
