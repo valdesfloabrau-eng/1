@@ -1,9 +1,19 @@
-{
-    "updated_at":  "2026-03-26T22:19:39.4519380+03:00",
+﻿{
+    "worker_id":  "DESKTOP-RUN7H1O",
+    "pid":  16688,
+    "updated_at":  "2026-03-28T17:45:22.0205104+03:00",
+    "status":  "idle",
+    "status_message":  "Inbox is empty. Worker remains idle.",
+    "last_stage":  "inbox read",
+    "last_error":  null,
+    "current_task_id":  "",
     "branch":  "chatgpt-codex-bridge",
     "repo_full_name":  "valdesfloabrau-eng/1",
-    "worker_id":  "DESKTOP-RUN7H1O",
-    "status":  "idle",
     "mode":  "idle-poller-v1",
-    "current_task_id":  null
+    "inbox_task_count":  0,
+    "loop_iteration":  1,
+    "last_successful_sync_at":  "2026-03-28T17:45:20.9502392+03:00",
+    "last_remote_heartbeat_at":  null,
+    "remote_heartbeat_status":  "pending",
+    "remote_heartbeat_message":  "Remote heartbeat not published yet."
 }

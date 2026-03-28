@@ -1,0 +1,34 @@
+2026-03-28T14:43:04.195669Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:04.241079Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:04.243499Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:04.248958Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:06.110707Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:06.152846Z  WARN codex_state::runtime: failed to open state db at C:\Users\User\.codex\state_5.sqlite: migration 21 was previously applied but is missing in the resolved migrations
+2026-03-28T14:43:06.155496Z  WARN codex_core::state_db: failed to initialize state runtime at C:\Users\User\.codex: migration 21 was previously applied but is missing in the resolved migrations
+2026-03-28T14:43:06.191113Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-03-28T14:43:06.206628Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:06.214586Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:06.249140Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:06.306717Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:08.855461Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:09.321817Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}", url: wss://chatgpt.com/backend-api/codex/responses
+2026-03-28T14:43:09.323615Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: stream disconnected before completion: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}"
+2026-03-28T14:43:09.330184Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:09.331705Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:09.757125Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:10.332333Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"019d34e6-11bc-7cd0-b16e-bcb46947b93f\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}", url: wss://chatgpt.com/backend-api/codex/responses
+2026-03-28T14:43:10.334805Z  WARN codex_core::codex: stream disconnected - retrying sampling request (1/5 in 184ms)...
+2026-03-28T14:43:10.873929Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"019d34e6-11bc-7cd0-b16e-bcb46947b93f\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}", url: wss://chatgpt.com/backend-api/codex/responses
+2026-03-28T14:43:10.874288Z  WARN codex_core::codex: stream disconnected - retrying sampling request (2/5 in 417ms)...
+2026-03-28T14:43:11.628390Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"019d34e6-11bc-7cd0-b16e-bcb46947b93f\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}", url: wss://chatgpt.com/backend-api/codex/responses
+2026-03-28T14:43:11.628818Z  WARN codex_core::codex: stream disconnected - retrying sampling request (3/5 in 829ms)...
+2026-03-28T14:43:12.817259Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"019d34e6-11bc-7cd0-b16e-bcb46947b93f\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}", url: wss://chatgpt.com/backend-api/codex/responses
+2026-03-28T14:43:12.817641Z  WARN codex_core::codex: stream disconnected - retrying sampling request (4/5 in 1.604s)...
+2026-03-28T14:43:14.947839Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"019d34e6-11bc-7cd0-b16e-bcb46947b93f\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}", url: wss://chatgpt.com/backend-api/codex/responses
+2026-03-28T14:43:14.948227Z  WARN codex_core::codex: stream disconnected - retrying sampling request (5/5 in 3.216s)...
+2026-03-28T14:43:18.502046Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: UTF-8 encoding error: failed to convert header to a str for header name 'x-codex-turn-metadata' with value: "{\"turn_id\":\"019d34e6-11bc-7cd0-b16e-bcb46947b93f\",\"workspaces\":{\"C:\\Users\\User\\OneDrive\\\xd0\x94\xd0\xbe\xd0\xba\xd1\x83\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd1\x8b\\New project\":{\"has_changes\":true}},\"sandbox\":\"windows_elevated\"}", url: wss://chatgpt.com/backend-api/codex/responses
+2026-03-28T14:43:18.504357Z  WARN codex_core::client: falling back to HTTP
+2026-03-28T14:43:39.666278Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:43:50.633081Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:44:03.355647Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T14:44:17.653654Z  WARN codex_core::features: unknown feature key in config: rmcp_client
