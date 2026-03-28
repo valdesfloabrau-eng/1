@@ -1,0 +1,23 @@
+2026-03-28T15:49:43.084523Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:43.089926Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:43.090786Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:43.091980Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:44.364209Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:44.375662Z  WARN codex_state::runtime: failed to open state db at C:\Users\User\.codex\state_5.sqlite: migration 21 was previously applied but is missing in the resolved migrations
+2026-03-28T15:49:44.380664Z  WARN codex_core::state_db: failed to initialize state runtime at C:\Users\User\.codex: migration 21 was previously applied but is missing in the resolved migrations
+2026-03-28T15:49:44.393776Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-03-28T15:49:44.394683Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:44.395014Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:44.429184Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:44.445069Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:46.354657Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:48.982398Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:48.982551Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:49:49.204458Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:50:09.243760Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:50:21.329162Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:50:44.045000Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:51:00.750853Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:51:16.852037Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:51:53.508538Z  WARN codex_core::features: unknown feature key in config: rmcp_client
+2026-03-28T15:54:28.417417Z  WARN codex_core::features: unknown feature key in config: rmcp_client

@@ -1,0 +1,13 @@
+﻿{
+    "files_changed":  [
+                          "?? .codex-bridge/results/codex-entry-launcher-standardization-v2/"
+                      ],
+    "tests_run":  [
+
+                  ],
+    "tests_passed":  true,
+    "notes":  [
+                  "codex_exit_code=0",
+                  "stderr captured in codex-stderr.log"
+              ]
+}
