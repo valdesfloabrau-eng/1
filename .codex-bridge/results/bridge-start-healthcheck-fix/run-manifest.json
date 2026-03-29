@@ -1,0 +1,19 @@
+﻿{
+    "task_id":  "bridge-start-healthcheck-fix",
+    "project_path":  "C:\\Users\\User\\codex_github_bridge",
+    "started_at":  "2026-03-29T17:07:56.5272255+03:00",
+    "finished_at":  "2026-03-29T17:46:44.6565270+03:00",
+    "result_status":  "failed",
+    "sandbox_mode":  "workspace-write",
+    "approval_source":  "config",
+    "worker_id":  "DESKTOP-RUN7H1O",
+    "branch":  "chatgpt-codex-bridge",
+    "repo_full_name":  "valdesfloabrau-eng/1",
+    "artifacts":  {
+                      "run_manifest":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\bridge-start-healthcheck-fix\\run-manifest.json",
+                      "codex_final":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\bridge-start-healthcheck-fix\\codex-final.md",
+                      "events":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\bridge-start-healthcheck-fix\\events.jsonl",
+                      "handoff":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\bridge-start-healthcheck-fix\\handoff-to-chatgpt.md",
+                      "patch_summary":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\bridge-start-healthcheck-fix\\patch-summary.json"
+                  }
+}

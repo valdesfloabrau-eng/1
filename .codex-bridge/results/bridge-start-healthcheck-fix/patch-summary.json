@@ -1,0 +1,18 @@
+﻿{
+    "files_changed":  [
+                          " M worker/process-task.ps1",
+                          " M worker/run-worker.ps1"
+                      ],
+    "tests_run":  [
+
+                  ],
+    "tests_passed":  null,
+    "notes":  [
+                  "task abandoned during codex exec / worker restart",
+                  "recovered_without_rerun",
+                  "processing_age_seconds=2327",
+                  "processing_ttl_seconds=120",
+                  "partial_artifacts=events.jsonl,codex-stderr.log",
+                  "missing_final_artifacts=run-manifest.json,codex-final.md,handoff-to-chatgpt.md,patch-summary.json"
+              ]
+}
