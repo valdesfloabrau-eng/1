@@ -1,7 +1,7 @@
 ﻿{
     "worker_id":  "DESKTOP-RUN7H1O",
-    "pid":  16888,
-    "updated_at":  "2026-04-04T18:45:47.5505538+03:00",
+    "pid":  14968,
+    "updated_at":  "2026-04-04T19:39:19.3616530+03:00",
     "status":  "idle",
     "status_message":  "Inbox is empty. Worker remains idle.",
     "last_stage":  "inbox read",
@@ -11,9 +11,9 @@
     "repo_full_name":  "valdesfloabrau-eng/1",
     "mode":  "idle-poller-v1",
     "inbox_task_count":  0,
-    "loop_iteration":  77,
-    "last_successful_sync_at":  "2026-04-04T18:45:47.1443143+03:00",
-    "last_remote_heartbeat_at":  "2026-04-04T18:45:10.9930874+03:00",
-    "remote_heartbeat_status":  "updated",
-    "remote_heartbeat_message":  "Remote heartbeat updated and pushed."
+    "loop_iteration":  1,
+    "last_successful_sync_at":  "2026-04-04T19:39:17.1057365+03:00",
+    "last_remote_heartbeat_at":  null,
+    "remote_heartbeat_status":  "pending",
+    "remote_heartbeat_message":  "Remote heartbeat not published yet."
 }
