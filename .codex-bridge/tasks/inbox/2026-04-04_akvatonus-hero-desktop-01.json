@@ -1,0 +1,76 @@
+{
+  "task_id": "akvatonus-hero-desktop-01",
+  "project_id": "akvatonus.ru",
+  "created_at": "2026-04-04T00:00:00Z",
+  "mode": "implementation",
+  "priority": "high",
+  "output": {
+    "type": "html_file",
+    "path": "C:\\Users\\User\\OneDrive\\Документы\\New project\\akvatonus.ru"
+  },
+  "task": {
+    "title": "Build one desktop hero HTML section for AkvaTonus",
+    "goal": "Create exactly one desktop hero section as a ready HTML file for akvatonus.ru. This is section 01 only and it must be strong enough to become the baseline for the rest of the desktop redesign.",
+    "references": {
+      "current_site": "https://akvatonus.ru/",
+      "structural_reference": "https://aquaslim.ru/",
+      "mottor_popup_doc": "https://help.lpmotor.ru/article/2910"
+    },
+    "constraints": [
+      "Build exactly one desktop section only.",
+      "Do not build mobile in this task.",
+      "Do not touch section 02 or anything below.",
+      "Do not redesign the whole page.",
+      "Produce a real HTML file in the project folder.",
+      "Do not work inside Mottor editor in this task; output is an HTML file.",
+      "Do not insert real photos; leave clean media placeholders only.",
+      "Primary CTA text must be exactly: Записаться на сеанс.",
+      "CTA must be clearly prepared for popup usage.",
+      "There is one real procedure video in 9x16 and 16x9 with the same content; do not duplicate it.",
+      "If video improves the hero, leave one placeholder only; if not, skip it.",
+      "Use AkvaTonus facts only; do not invent unsupported medical claims.",
+      "Do not clone aquaslim.ru visually; transfer structure, hierarchy, scan logic, trust logic, and sales packaging only.",
+      "Keep the section clean, calm, modern, premium, and realistic for HTML/Mottor compatibility."
+    ],
+    "allowed_facts": [
+      "до -6 кг и -5 см за курс без изнурительных диет",
+      "видимый эффект после трех сеансов",
+      "за 40 минут снимаем стресс мегаполиса",
+      "убираем лимфатические отеки",
+      "first session discount exists on current AkvaTonus site",
+      "WhatsApp and Telegram already exist on current AkvaTonus site"
+    ],
+    "expected_structure": [
+      "eyebrow",
+      "strong H1",
+      "short supporting paragraph",
+      "4 quick value points",
+      "primary CTA",
+      "optional lightweight secondary contact action only if composition benefits",
+      "compact trust strip or trust badges",
+      "one main visual placeholder area",
+      "optional one video placeholder only if it improves composition"
+    ],
+    "design_direction": [
+      "clean",
+      "бытовой",
+      "аккуратный",
+      "уверенный",
+      "strong left-right composition",
+      "clear hierarchy in 3 seconds",
+      "no cheap landing page feel",
+      "no fragile decorative tricks"
+    ],
+    "file_naming": "ASCII only, with timestamp, example: akvatonus-2026-04-04_hero-desktop-01.html"
+  },
+  "required_report": [
+    "one-line summary",
+    "full file path created",
+    "what exactly was implemented",
+    "what is placeholder only",
+    "popup prepared or already wired",
+    "video placeholder used or skipped",
+    "weakest remaining part of the hero",
+    "next high-value step only"
+  ]
+}
