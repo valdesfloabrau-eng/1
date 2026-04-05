@@ -1,0 +1,3 @@
+Created the review export at [handoff-to-chatgpt.md](C:\Users\User\codex_github_bridge\transport-repo\.codex-bridge\results\akvatonus-hero-export-01\handoff-to-chatgpt.md). It contains the exact source path, the full current HTML in a fenced `html` block, a short structural summary, and a note that the file was only exported for review.
+
+The exported source is [akvatonus-2026-04-04_hero-desktop-01.html](C:\Users\User\OneDrive\Документы\New project\akvatonus.ru\akvatonus-2026-04-04_hero-desktop-01.html). That file was not modified during this task; its timestamp and size remained unchanged (`2026-04-04 20:21:29`, `23446` bytes).
