@@ -1,19 +1,19 @@
 ﻿{
     "worker_id":  "DESKTOP-RUN7H1O",
     "pid":  2552,
-    "updated_at":  "2026-04-05T07:28:02.8234652+03:00",
-    "status":  "running",
-    "status_message":  "Task akvatonus-hero-desktop-01-review-handoff is running.",
-    "last_stage":  "processing start",
+    "updated_at":  "2026-04-05T07:30:33.4653353+03:00",
+    "status":  "idle",
+    "status_message":  "Task akvatonus-hero-desktop-01-review-handoff finished with status succeeded.",
+    "last_stage":  "task execution",
     "last_error":  null,
-    "current_task_id":  "akvatonus-hero-desktop-01-review-handoff",
+    "current_task_id":  "",
     "branch":  "chatgpt-codex-bridge",
     "repo_full_name":  "valdesfloabrau-eng/1",
     "mode":  "idle-poller-v1",
-    "inbox_task_count":  3,
+    "inbox_task_count":  0,
     "loop_iteration":  1,
     "last_successful_sync_at":  "2026-04-05T07:28:02.0346470+03:00",
-    "last_remote_heartbeat_at":  null,
-    "remote_heartbeat_status":  "pending",
-    "remote_heartbeat_message":  "Remote heartbeat not published yet."
+    "last_remote_heartbeat_at":  "2026-04-05T07:28:06.5274643+03:00",
+    "remote_heartbeat_status":  "updated",
+    "remote_heartbeat_message":  "Remote heartbeat updated and pushed."
 }

@@ -1,0 +1,19 @@
+﻿{
+    "task_id":  "akvatonus-hero-desktop-01-review-handoff",
+    "project_path":  "C:\\Users\\User\\OneDrive\\Документы\\New project\\akvatonus.ru",
+    "started_at":  "2026-04-05T07:28:06.6312173+03:00",
+    "finished_at":  "2026-04-05T07:30:33.4202952+03:00",
+    "result_status":  "succeeded",
+    "sandbox_mode":  "workspace-write",
+    "approval_source":  "config",
+    "worker_id":  "DESKTOP-RUN7H1O",
+    "branch":  "chatgpt-codex-bridge",
+    "repo_full_name":  "valdesfloabrau-eng/1",
+    "artifacts":  {
+                      "run_manifest":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\akvatonus-hero-desktop-01-review-handoff\\run-manifest.json",
+                      "codex_final":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\akvatonus-hero-desktop-01-review-handoff\\codex-final.md",
+                      "events":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\akvatonus-hero-desktop-01-review-handoff\\events.jsonl",
+                      "handoff":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\akvatonus-hero-desktop-01-review-handoff\\handoff-to-chatgpt.md",
+                      "patch_summary":  "C:\\Users\\User\\codex_github_bridge\\transport-repo\\.codex-bridge\\results\\akvatonus-hero-desktop-01-review-handoff\\patch-summary.json"
+                  }
+}
