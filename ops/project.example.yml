@@ -1,0 +1,32 @@
+project_id: example.ru
+primary_domain: example.ru
+aliases:
+  - www.example.ru
+locales:
+  - ru
+  - en
+locale_hosts:
+  ru: example.ru
+  en: en.example.ru
+subdomain_links:
+  - kind: locale
+    host: en.example.ru
+    locale: en
+repo_name: example.ru
+project_root_folder: /projects/example.ru
+deploy_targets:
+  - id: prod-reg-host3
+    type: reg.ru-host3
+    host: example.ru
+    path: /public_html
+hosting_adapter: reg.ru-host3
+canonical_rules:
+  - prefer-primary-domain
+  - locale-subdomains-canonicalized
+build_output_dir: dist
+environment_names:
+  - preview
+  - production
+branch_strategy:
+  main: main
+  feature_prefix: feat/

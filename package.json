@@ -1,0 +1,13 @@
+{
+  "name": "site-ops-broker-staging",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start:task-001": "node build/run-task-001.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

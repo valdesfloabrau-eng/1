@@ -1,0 +1,32 @@
+task_id: task-002
+project_id: akvatonus.ru
+mode: code-after-selection
+title: Build desktop hero section 01 for AkvaTonus in Mottor
+goal: Produce one desktop-first hero section for AkvaTonus, informed by the sales logic of aquaslim.ru but adapted to the real AkvaTonus offer, and implement it in Mottor as a single section ready for review.
+constraints:
+  - target platform is Mottor
+  - work on one desktop section only; do not build mobile in this task
+  - do not insert real photos; leave clearly marked media placeholder frame(s) only
+  - CTA text must be exactly "Записаться на сеанс" and must open a popup in Mottor
+  - configure popup through Mottor button click action per https://help.lpmotor.ru/article/2910
+  - prefer blocked popup architecture over free popup unless a stronger reason is documented in the report
+  - do not duplicate the same video in multiple aspect ratios inside the same section
+  - if video improves the section, leave one clearly marked video frame placeholder only; if not, omit it and explain why
+  - do not clone aquaslim.ru visually; transfer structure and conversion logic, not the shell
+  - keep the section calm, clean, premium, and Mottor-compatible
+  - use only claims already present on akvatonus.ru or explicitly derived from it
+  - do not touch other sections in this task
+success_criteria:
+  - exactly one desktop hero section is implemented in Mottor
+  - hero has a strong left-right composition with clear H1, support text, quick value points, trust layer, and primary CTA
+  - CTA opens a Mottor popup, not a generic link
+  - section contains photo placeholders only, no embedded real images
+  - optional video placeholder is used at most once
+  - result is strong enough to become the baseline for later desktop sections
+  - report follows code-after-selection response format from docs/communication.md
+context_refs:
+  - https://akvatonus.ru/
+  - https://aquaslim.ru/
+  - https://help.lpmotor.ru/article/2910
+  - docs/communication.md
+  - ops/protocol/task-format.md
